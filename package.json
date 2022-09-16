@@ -1,0 +1,25 @@
+{
+  "name": "fastify-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "start": "tsc -w & nodemon server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/middie": "^8.0.0",
+    "fastify": "^4.5.3",
+    "fastify-autoload": "^3.13.0",
+    "fastify-plugin": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.17",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
